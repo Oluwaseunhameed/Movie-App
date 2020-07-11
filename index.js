@@ -4,11 +4,10 @@ const path = require('path');
 
 const app = express();
 
+connectDB()
 
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
-
-connectDB()
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
