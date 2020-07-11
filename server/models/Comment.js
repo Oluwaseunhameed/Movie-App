@@ -5,7 +5,7 @@ const commentSchema = mongoose.Schema({
     writer: {
         type: Schema.Types.ObjectId,
         ref: 'User'
-    }, 
+    },
     postId: {
         type: String,
     },
@@ -14,7 +14,8 @@ const commentSchema = mongoose.Schema({
         ref: 'User'
     },
     content: {
-        type: String
+        type: String,
+        required: true
     }
 
 }, { timestamps: true })
