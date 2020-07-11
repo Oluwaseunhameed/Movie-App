@@ -1,17 +1,17 @@
 {
-  "name": "react-boiler-plate",
+  "name": "movie-app",
   "version": "1.0.0",
-  "description": "react boiler plate",
+  "description": "movie app",
   "main": "index.js",
   "engine": {
     "node": "10.16.0",
     "npm": "6.9.0"
   },
   "scripts": {
-    "start": "node server/index.js",
+    "start": "node index.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "author": "John ahn",
+  "author": "Oluwaseun Hameed",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^3.0.6",
