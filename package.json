@@ -26,7 +26,6 @@
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.27.0",
     "mongoose": "^5.9.23",
-    "react-redux": "^5.1.2",
     "saslprep": "^1.0.3"
   },
   "devDependencies": {
