@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react'
-import { Typography, Row } from 'antd';
+import { Typography, Row, Button } from 'antd';
 import { API_URL, API_KEY, IMAGE_BASE_URL, IMAGE_SIZE, POSTER_SIZE } from '../../Config'
 import MainImage from './Sections/MainImage'
 import GridCard from '../../commons/GridCards'
@@ -15,11 +15,11 @@ function LandingPage() {
     useEffect(() => {
         const endpoint = `${API_URL}movie/popular?api_key=${API_KEY}&language=en-US&page=1`;
         fetchMovies(endpoint)
-    })
+    }, [])
 
     useEffect(() => {
         window.addEventListener("scroll", handleScroll);
-    })
+    }, [])
 
 
     const fetchMovies = (endpoint) => {
