@@ -1,9 +1,11 @@
-Hello, My Friends  
-Thank you for Having interest in this repository ! 
+# Movie-App
 
-To use this application, 
+![COVID-19 Tracker](https://res.cloudinary.com/seunstore/image/upload/v1594554933/movie-app_elti3a.png)
 
-1. make dev.js file inside config folder 
-2. put mongoDB info into dev.js file 
-3. Type  " npm install " inside the root directory  ( Download Server Dependencies ) 
-4. Type " npm install " inside the client directory ( Download Front-end Dependencies )
+### [Live Site](https://seun-movie-app.herokuapp.com/)
+
+
+This Movie site is developed with MERN stack. It shows details about latest movies. Users can also comment, like or dislike.
+
+
+API used: https://api.themoviedb.org/3/
