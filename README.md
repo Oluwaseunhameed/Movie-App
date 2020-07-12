@@ -1,6 +1,6 @@
 # Movie-App
 
-![COVID-19 Tracker](https://res.cloudinary.com/seunstore/image/upload/v1594554933/movie-app_elti3a.png)
+![Movie-App](https://res.cloudinary.com/seunstore/image/upload/v1594554933/movie-app_elti3a.png)
 
 ### [Live Site](https://seun-movie-app.herokuapp.com/)
 
